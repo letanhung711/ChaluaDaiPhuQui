@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/*Navbar  */
+nav {
+    background-color: #0F400F;
+}
+.navbar-toggler-icon.white-icon {
+    color: white;
+}
+
+/* List menu */
+.title_list_product{
+    color: black;
+    font-family: "Paytone One", "sans-serif";
+}
