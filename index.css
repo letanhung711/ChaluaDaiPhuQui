@@ -3,13 +3,17 @@
     padding: 0;
     color: white;
 }
+:root{
+    --nav-text-color: white;
+}
 
 /*Navbar  */
 nav {
     background-color: #0F400F;
 }
-.navbar-toggler-icon.white-icon {
-    color: white;
+
+.item_nav{
+    color: var(--nav-text-color) !important;
 }
 
 /* List menu */
