@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    color: white;
 }
 :root{
     --nav-text-color: white;
@@ -20,4 +19,39 @@ nav {
 .title_list_product{
     color: black;
     font-family: "Paytone One", "sans-serif";
+    text-align: center;
 }
+.image_product{
+    width: 300px; 
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.list_product{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+/*Giới thiệu */
+.container_gioithieu{
+    margin: 20px 0 0 20px;
+}
+.title_gioithieu{
+    margin: auto;
+}
+.image_gioiThieu{
+    background-image: url('https://drive.google.com/uc?id=1PuvWsFnvMlc52UG-Yb9_ER7uZJKBcKqE');
+    background-size: cover;
+    width: 300px; 
+    height: 200px;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-position: left bottom;
+    background-repeat: repeat;
+  
+    margin: auto;
+}
+
