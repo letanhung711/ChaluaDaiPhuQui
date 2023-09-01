@@ -2,9 +2,17 @@
     margin: 0;
     padding: 0;
 }
-:root{
+:root {
+    --primary_background: #00CC00;
+    --primary_font: "Open Sans", sans-serif;
     --nav-text-color: white;
 }
+/* html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+} */
 
 /*Navbar  */
 nav {
@@ -55,3 +63,192 @@ nav {
     margin: auto;
 }
 
+/* list products */
+#SECTION167 {
+    height: 828px;
+    margin: 0px auto;
+    position: relative;
+}
+#SECTION167 > .dpq-section-background {
+    background-image: url(./image/background.jpg);
+    background-position: left center;
+    background-repeat: repeat;
+    opacity: 0.25;
+}
+.dpq-section-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    overflow: hidden;
+}
+#SECTION167 > .dpq-overlay {
+    background-color: rgba(238, 238, 238, 0.86);
+}
+.dpq-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+.dpq-headline {
+    position: relative;
+    margin: 0 auto;
+}
+.dpq-headline .product-title {
+    font-family: "Lobster", cursive;
+    font-size: 36px;
+    text-align: center;
+    color: rgb(255, 193, 7);
+    letter-spacing: 2px;
+    line-height: 1;
+}
+#HEADLINE169 > .product-title {
+    font-family: var(--primary_font);
+    font-size: 36px;
+    color: rgb(66, 66, 66);
+    text-align: center;
+    line-height: 1;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.product-group {
+    position: relative;
+    margin: 0 auto;
+    width: 620px;
+}
+.product-group .dpq-group {
+    display: flex;
+    width: 282px;
+    margin: 0 auto;
+}
+.dpq-group .product-name {
+    font-family: "Tinos", serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+.dpq-group .product-price {
+    font-family: "Tinos", serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 193, 7);
+    text-align: right;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+.dpq-group .dpq-paragraph {
+    font-family: var(--primary_font);
+    color: rgb(97, 97, 97);
+    font-size: 13px;
+    text-align: left;
+    line-height: 1.4;
+}
+/* contactus */
+.contact_group {
+    font-family: var(--primary_font);
+}
+.contact_group .contact_title {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    line-height: 1.2;
+}
+.dpq_paragraph {
+    color: rgb(97, 97, 97);
+    font-size: 14px;
+    line-height: 1.4;
+}
+.dpq_form {
+    font-family: var(--primary_font);
+    font-size: 13px;
+    color: rgb(69, 69, 69);
+    line-height: 1;
+}
+.form-item {
+    margin: 0px auto;
+    width: 661.922px;
+    height: 165.313px;
+}
+.form-item input {
+    width: 100%;
+    height: 50px;
+    padding: 0px 10px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(173, 173, 173);
+}
+.dqp-button {
+    margin: 0px auto;
+    width: 106px;
+    height: 32px;
+}
+.dpq-submit {
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgb(255, 171, 0);
+    color: white;
+}
+#HEADLINE169 .dpq_headline {
+    margin: 0px;
+    font-family: var(--primary_font);
+    color: rgb(117, 117, 117);
+    font-size: 12px;
+    line-height: 1.2;
+}
+/* footer */
+#SECTION170 {
+    background-color: var(--primary_background);
+    position: sticky;
+    top: 100%;
+}
+.dpq_group {
+    padding: 0 30px;
+}
+.dpq_title {
+    margin: 0px;
+    font-family: var(--primary_font);
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.4;
+}
+.dpq_content {
+    margin: 0px;
+    font-family: var(--primary_font);
+    font-size: 13px;
+    text-align: left;
+    line-height: 1.4;
+}
+.dpq_line {
+    width: 100%;
+    padding: 8px 120px 8px 0px;
+}
+.line_container {
+    border-top: 1px solid rgb(255, 235, 59);
+}
+.dpq_text {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.dqp-logo {
+    width: 150px;
+    height: 150px;
+}
+.dpq_slogan {
+    font-family: "Dancing Script", cursive;
+    font-size: 27.5px;
+    margin: 0px;
+    padding: 8px;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
